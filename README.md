@@ -362,4 +362,104 @@ https://arxiv.org/abs/2201.11903
 
 ### Primeiros Passos Google AI Studio
 
-https://cursos.alura.com.br/imersoes/aulas/aula-3-explorando-os-parametros-do-google-ai-studio-c130
+#### Explorando os parâmetros do Google AI Studio
+
+
+
+<mark>**Propmpts Multimodais**</mark>
+
+![image2](./images/image2.png)
+
+### Tipos de prompts disponíveis no Google AI Studio
+
+O **Google AI Studio** oferece diversos tipos de prompts para atender a diferentes necessidades e casos de uso. Cada tipo de prompt possui características e funcionalidades específicas, permitindo que os usuários explorem a criatividade e a capacidade de geração de conteúdo da IA de diversas maneiras.
+
+
+
+### Prompts de forma livre (Freeform prompts)
+:sparkles:**Descrição**
+
+Os prompts de forma livre oferecem uma experiência de prompt aberta, permitindo que os usuários criem prompts com texto e imagens para gerar conteúdo e respostas a instruções.
+
+:+1:**Vantagens**
+
+Flexibilidade para criar prompts personalizados e criativos.
+Capacidade de combinar texto e imagens para gerar resultados mais ricos e informativos.
+Ideal para explorar a criatividade da IA e gerar conteúdo original.
+
+:-1:**Desvantagens**
+
+Menor controle sobre a estrutura e o formato do conteúdo gerado.
+Possibilidade de obter resultados inconsistentes ou irrelevantes.
+
+---
+
+### Prompts estruturados (Structured prompts)
+:sparkles: **Descrição**
+
+Os prompts estruturados fornecem mais controle sobre o conteúdo gerado ao fornecer um conjunto de exemplos de solicitações e respostas.
+
+:+1:**Vantagens**
+
+Maior controle sobre a estrutura e o formato do conteúdo gerado.
+Resultados mais consistentes e relevantes.
+Ideal para tarefas que exigem um formato específico, como escrever artigos ou gerar scripts.
+:-1:**Desvantagens**
+
+Menor flexibilidade para criar prompts personalizados e criativos.
+Requer mais tempo e esforço para criar os exemplos de solicitações e respostas.
+
+---
+
+### Prompts de bate-papo (Chat prompts)
+:bookmark: **Descrição**
+
+Os prompts de bate-papo permitem construir experiências conversacionais. Essa técnica de prompt permite múltiplas voltas de entrada e resposta para gerar a saída.
+
+:+1:**Vantagens**
+
+Ideal para criar interfaces conversacionais e chatbots.
+Permite que os usuários interajam com a IA de forma natural e intuitiva.
+Possibilidade de gerar respostas mais personalizadas e envolventes.
+
+:-1:**Desvantagens**
+
+Maior complexidade para criar prompts e implementar interfaces conversacionais.
+Requer mais dados e treinamento para gerar respostas precisas e relevantes.
+
+---
+
+### Modelos ajustados (Tuned models)
+:sparkles: **Descrição**
+
+ Os modelos ajustados são uma técnica avançada que permite melhorar as respostas de um modelo para uma tarefa específica, fornecendo mais exemplos.
+
+:+1:**Vantagens**
+
+Melhora a precisão e a relevância das respostas para tarefas específicas.
+Ideal para tarefas que exigem alto grau de precisão e personalização.
+:-1:**Desvantagens**
+
+Requer mais tempo, esforço e dados para ajustar o modelo.
+Nem todos os modelos suportam ajuste fino.
+Escolhendo o tipo de prompt certo
+A escolha do tipo de prompt ideal depende das suas necessidades e do caso de uso específico.
+
+---
+
+
+
+>
+>
+>:bulb: ​Se você deseja **explorar a criatividade da IA e gerar conteúdo original**, os **prompts de forma livre** são uma boa opção.
+>Se você precisa de **mais controle sobre a estrutura e o formato do conteúdo**, os **prompts estruturados** são mais adequados.
+>Se você deseja **criar interfaces conversacionais**, os **prompts de bate-papo** são a melhor escolha.
+>Se você precisa de **alto grau de precisão e personalização para uma tarefa específica**, os **modelos ajustados** podem ser a solução ideal.
+>
+>Recursos adicionais
+>Documentação do Google AI Studio: https://www.cloudskillsboost.google/focuses/63564?parent=catalog
+>Tutorial do Google AI Studio: Prompt Design: https://www.cloudskillsboost.google/course_templates/976
+>Vídeo: Introdução aos prompts estruturados no Google AI Studio: https://www.youtube.com/watch?v=cTcuMZJoZUA
+>
+>
+

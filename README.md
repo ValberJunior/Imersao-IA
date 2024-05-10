@@ -463,3 +463,12 @@ A escolha do tipo de prompt ideal depende das suas necessidades e do caso de uso
 >
 >
 
+
+
+:speaking_head: **Um resumo comentado:**
+
+<mark>**Chat Prompt**</mark> :point_right: ​O **IA Studio** guarda o histórico de prompts gerando um contexto das conversas.
+
+<mark>**FreeForm Prompt (forma Livre)**</mark> :point_right: Quando já pensamos em embutir um prompt maior dentro de uma aplicação e não precisamos ter a interação de chat, com o **freeform** começamos a agregar perguntas em requisição únicas.
+
+<mark>**Structured Prompt***</mark> :point_right: Habilidade em que o **IA Studio** disponibiliza a possibilidade de geração de um conteúdo tabular/tabela para fazer um **few-shot-prompt**, ao invés de estruturar em texto livre os exemplos,  nos baseamos em uma estrutura de banco de dados ou planilha, e damos o exemplo para o modelo de uma forma simples para ser organizada por nós e mais fácil de ser entendida pelo modelo.

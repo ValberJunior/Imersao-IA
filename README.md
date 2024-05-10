@@ -482,3 +482,14 @@ A escolha do tipo de prompt ideal depende das suas necessidades e do caso de uso
 
 
 ![image3](./images/image3.png)
+
+
+
+**Temperatura** :point_right: Quanto maior, mais criatividade no prompt. Quando colocamos a temperatura no 0, há chances de respostas iguais para X números de  prompts, quanto maior a temperatura, mais possibilidades de novas probabilidades de respostas.
+
+**Add stop sequence**​ :point_right:  Conseguimos definir quando cada prompt irá terminar e aguardar novos comandos. Por exemplo, se defino que irá dar o stop no primeiro ponto final da resposta, ele responde e quando conclui a frase o chat para e aguarda o input de um novo prompt;
+
+**Safety Settings** :point_right:   Definimos aqui, os parâmetros de segurança e "garantias éticas" das respostas do modelo.
+
+**Advanced Settings** :point_right: **`Top K`** - Calibra o nível de possibilidades numéricas de conjunto de palavras retornará o output do prompt. **`Top P`** - Calibra o nível de possibilidades agregadas, ou seja a soma máxima de conjunto de palavras que eu quero tolerar, exemplo: se no **`Top K`**  eu defini um número de possibilidades de palavras. no **`Top P`**  eu limito uma porcentagem em cima do **`Top K`**.
+

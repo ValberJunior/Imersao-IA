@@ -456,9 +456,9 @@ A escolha do tipo de prompt ideal depende das suas necessidades e do caso de uso
 >Se você deseja **criar interfaces conversacionais**, os **prompts de bate-papo** são a melhor escolha.
 >Se você precisa de **alto grau de precisão e personalização para uma tarefa específica**, os **modelos ajustados** podem ser a solução ideal.
 >
->Recursos adicionais
->Documentação do Google AI Studio: https://www.cloudskillsboost.google/focuses/63564?parent=catalog
->Tutorial do Google AI Studio: Prompt Design: https://www.cloudskillsboost.google/course_templates/976
+>Recursos adicionais<br/>
+>Documentação do Google AI Studio: https://www.cloudskillsboost.google/focuses/63564?parent=catalog<br/>
+>Tutorial do Google AI Studio: Prompt Design: https://www.cloudskillsboost.google/course_templates/976<br/>
 >Vídeo: Introdução aos prompts estruturados no Google AI Studio: https://www.youtube.com/watch?v=cTcuMZJoZUA
 >
 >

@@ -472,3 +472,13 @@ A escolha do tipo de prompt ideal depende das suas necessidades e do caso de uso
 <mark>**FreeForm Prompt (forma Livre)**</mark> :point_right: Quando já pensamos em embutir um prompt maior dentro de uma aplicação e não precisamos ter a interação de chat, com o **freeform** começamos a agregar perguntas em requisição únicas.
 
 <mark>**Structured Prompt***</mark> :point_right: Habilidade em que o **IA Studio** disponibiliza a possibilidade de geração de um conteúdo tabular/tabela para fazer um **few-shot-prompt**, ao invés de estruturar em texto livre os exemplos,  nos baseamos em uma estrutura de banco de dados ou planilha, e damos o exemplo para o modelo de uma forma simples para ser organizada por nós e mais fácil de ser entendida pelo modelo.
+
+
+
+### Mais sobre o Google IA Studio
+
+**System Instructions** :point_right: Diretriz ou regra de como o modelo tem que se comportar ou agir independentemente do prompt submetido. isso ajuda a padronizar prompts e evitar repetição de entradas, deixando parametrizado informações que sempre irão em todos os prompts, permindo então definir perfils de prompts.
+
+
+
+![image3](./images/image3.png)

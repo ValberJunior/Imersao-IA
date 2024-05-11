@@ -491,5 +491,54 @@ A escolha do tipo de prompt ideal depende das suas necessidades e do caso de uso
 
 **Safety Settings** :point_right:   Definimos aqui, os parâmetros de segurança e "garantias éticas" das respostas do modelo.
 
-**Advanced Settings** :point_right: **`Top K`** - Calibra o nível de possibilidades numéricas de conjunto de palavras retornará o output do prompt. **`Top P`** - Calibra o nível de possibilidades agregadas, ou seja a soma máxima de conjunto de palavras que eu quero tolerar, exemplo: se no **`Top K`**  eu defini um número de possibilidades de palavras. no **`Top P`**  eu limito uma porcentagem em cima do **`Top K`**.
+
+
+**Advanced Settings** 
+
+**Top K** :point_right: Define o número máximo de palavras candidatas consideradas em cada etapa da geração de texto. Por exemplo, se `Top K` = 50, o modelo analisa as 50 palavras mais prováveis para escolher a próxima palavra na sequência.
+
+**Top P** :point_right: Controla a diversidade do texto gerado ao definir um limite de probabilidade acumulada. O modelo considera as palavras candidatas até que sua soma de probabilidades atinja o valor definido por `Top P`. Isso permite incluir palavras menos prováveis, mas potencialmente mais criativas ou interessantes, na geração do texto.
+
+**Em resumo:**
+
+- **Top K**: Número máximo de palavras consideradas.
+- **Top P**: Limite de probabilidade acumulada para incluir palavras diversas.
+
+**Exemplo:**
+
+Se Top K = 50 e Top P = 0.9, o modelo irá:
+
+1. Analisar as 50 palavras mais prováveis.
+2. Somar as probabilidades dessas palavras até atingir um valor acumulado de 0.9.
+3. Escolher a próxima palavra dentro desse conjunto de palavras que respeitam o limite de Top P.
+
+**Observação:**
+
+Ajustar Top K e Top P permite controlar o equilíbrio entre criatividade e coerência na geração de texto.
+
+- Valores menores de Top K e Top P levam a textos mais previsíveis e coerentes, mas potencialmente menos criativos.
+- Valores maiores de Top K e Top P aumentam a diversidade e criatividade, mas podem gerar textos menos coerentes ou inesperados.
+
+---
+
+
+
+### Usando a API
+
+
+
+Para usar a **API** do **Google AI Studio**, precisamos gerar uma **`API KEY`** na UI do Google Studio, e com ela conseguimos acessar os serviços da IA através de requisições via código, como exemplo abaixo:
+
+
+
+```bash
+curl \
+  -H 'Content-Type: application/json' \
+  -d '{"contents":[{"parts":[{"text":"Explain how AI works"}]}]}' \
+  -X POST 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=YOUR_API_KEY'
+```
+
+
+
+
 
